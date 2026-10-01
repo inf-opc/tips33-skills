@@ -15,6 +15,16 @@ Live offers from partner retailers, ranked by what you actually pay. No API key.
 
 ---
 
+**Fastest install (any agent: Claude Code, Cursor, Codex, Gemini CLI, Copilot...)**
+
+```bash
+npx skills add inf-opc/tips33-skills
+```
+
+Skills included: `find-deals` · `price-check` · `gift-finder`
+
+---
+
 ## Works with every AI
 
 | AI | Install |
