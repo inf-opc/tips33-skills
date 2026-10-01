@@ -1,11 +1,14 @@
 {
   "name": "tips33",
-  "owner": { "name": "tips33", "url": "https://tips33.vercel.app" },
+  "owner": {
+    "name": "tips33",
+    "url": "https://tips33.vercel.app"
+  },
   "plugins": [
     {
       "name": "tips33",
       "source": "./",
-      "description": "Find the best real deal before you buy. Live offers via the tips33 MCP server + find-deals skill."
+      "description": "find-deals skill + tips33 MCP server: live offers ranked by what you pay now."
     }
   ]
 }

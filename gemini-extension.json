@@ -1,0 +1,9 @@
+{
+  "name": "tips33",
+  "version": "1.0.0",
+  "description": "Find the best real deal before you buy. Live partner offers ranked by what you pay now.",
+  "mcpServers": {
+    "tips33": { "httpUrl": "https://tips33.vercel.app/mcp" }
+  },
+  "contextFileName": "GEMINI.md"
+}

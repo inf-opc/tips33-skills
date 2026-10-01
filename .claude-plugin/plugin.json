@@ -1,20 +1,22 @@
 {
   "name": "tips33",
   "version": "1.0.0",
-  "description": "Find the best real deal before you buy. Live offers, total price, honest picks. Zero setup.",
+  "description": "Find the best real deal before you buy. Live partner offers ranked by what you pay now. No API key.",
   "author": {
     "name": "tips33",
     "url": "https://tips33.vercel.app"
   },
   "homepage": "https://tips33.vercel.app",
-  "repository": "https://github.com/Lilouoz/tips33-skills",
+  "repository": "https://github.com/inf-opc/tips33-skills",
   "license": "MIT",
   "keywords": [
+    "chatgpt",
+    "gemini",
     "shopping",
     "deals",
     "price",
     "mcp",
-    "skills",
+    "agent-skills",
     "amazon",
     "ai-agent"
   ],
