@@ -15,40 +15,29 @@ Live offers from partner retailers, ranked by what you actually pay. No API key.
 
 ---
 
-**Fastest install (any agent: Claude Code, Cursor, Codex, Gemini CLI, Copilot...)**
+## Install in 1 step
+
+**In a terminal** (Claude Code, Cursor, Codex, Gemini CLI, Copilot):
 
 ```bash
 npx skills add inf-opc/tips33-skills
 ```
 
-Skills included: `find-deals` · `price-check` · `gift-finder`
-
----
-
-## Works with every AI
-
-| AI | Install |
-|---|---|
-| **ChatGPT** | Connector (Developer mode) or Custom GPT: [guide](integrations/chatgpt.md) |
-| **Claude.ai / Desktop** | Settings → Connectors → Add custom connector → `https://tips33.vercel.app/mcp` |
-| **Claude Code** | `claude mcp add --transport http tips33 https://tips33.vercel.app/mcp` |
-| **Gemini CLI** | `gemini extensions install https://github.com/inf-opc/tips33-skills` |
-| **OpenAI Codex CLI** | `codex mcp add tips33 --url https://tips33.vercel.app/mcp` |
-| **Cursor** | [One-click install](cursor://anysphere.cursor-deeplink/mcp/install?name=tips33&config=eyJ1cmwiOiJodHRwczovL3RpcHMzMy52ZXJjZWwuYXBwL21jcCJ9) |
-| **VS Code (Copilot)** | `code --add-mcp '{"name":"tips33","type":"http","url":"https://tips33.vercel.app/mcp"}'` |
-| **Mistral Le Chat** | Connectors → Add connector → Custom MCP → `https://tips33.vercel.app/mcp` |
-| **Windsurf, Cline, Zed, Goose, LM Studio** | Add an HTTP MCP server: `https://tips33.vercel.app/mcp` |
-| **OpenAI / Anthropic APIs** | [code samples](integrations/apis.md) |
-| **Any agent or script** | `curl "https://tips33.vercel.app/api/recommend?q=trail+running+shoes&country=US&deals=1"` |
-
-Claude Code plugin (MCP + skill in one step):
+**In a chat app** (ChatGPT, Claude, Claude Cowork, Le Chat): add a custom connector with this URL
 
 ```
-/plugin marketplace add inf-opc/tips33-skills
-/plugin install tips33@tips33
+https://tips33.vercel.app/mcp
 ```
 
-Coding agents (Codex, Cursor, Copilot, Jules) read [`AGENTS.md`](AGENTS.md). Agent Skills runtimes load [`skills/find-deals`](skills/find-deals).
+**In Codex** (CLI, app or IDE):
+
+```bash
+codex mcp add tips33 --url https://tips33.vercel.app/mcp
+```
+
+Then ask: *"best trail running shoes under $200"*
+
+Step-by-step for each AI: [INSTALL.md](INSTALL.md)
 
 ---
 
