@@ -1,0 +1,27 @@
+{
+  "name": "tips33",
+  "version": "1.0.0",
+  "description": "Find the best real deal before you buy. Live offers, total price, honest picks. Zero setup.",
+  "author": {
+    "name": "tips33",
+    "url": "https://tips33.vercel.app"
+  },
+  "homepage": "https://tips33.vercel.app",
+  "repository": "https://github.com/Lilouoz/tips33-skills",
+  "license": "MIT",
+  "keywords": [
+    "shopping",
+    "deals",
+    "price",
+    "mcp",
+    "skills",
+    "amazon",
+    "ai-agent"
+  ],
+  "mcpServers": {
+    "tips33": {
+      "type": "http",
+      "url": "https://tips33.vercel.app/mcp"
+    }
+  }
+}
